@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Fones de Ouvidos</title>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo"><i class='bx bx-headphone'></i>Soundbox</a>
+
+        <ul class="navegação">
+            <li><a href="resumo.html">Visão geral</a></li>
+            <li><a href="espec.html">Teach Specs</a></li>
+            <li><a href="personalize.html">Personalize</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul><!--navegação-->
+
+        <div class="header-icons">
+            <i class='bx bx-cart'></i>
+    
+            <div class="menu-btn" onclick="toggleMenu()">&#9776;</div>
+            <ul class="menu-options">
+                <li><a href="resumo.html">Visão geral</a></li>
+                <li><a href="espec.html">Teach Specs</a></li>
+                <li><a href="personalize.html">Personalize</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="https://www.amazon.com.br/dp/B0BCHB8D2P/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new&creative=380345&creativeASIN=B0BCHB8D2P&linkCode=asm&tag=zoom059-20&ascsubtag=551f8183520c4c43b1dce25c7bc9c2ae">Shop Now</a></li>
+            </ul>
+        </div><!--header-icons-->
+    </header>
+
+    <section class="home">
+        <div class="home-img">
+            <img src="imgs/product1.png" class="one">
+        </div><!--home-img-->
+
+        <div class="home-text">
+
+            <h1>Wireless <br> Headphones</h1>
+            <h5>The smarter way to listen</h5>
+            <h3>R$ 1600.00</h3>
+            <a href="https://www.amazon.com.br/dp/B0BCHB8D2P/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new&creative=380345&creativeASIN=B0BCHB8D2P&linkCode=asm&tag=zoom059-20&ascsubtag=551f8183520c4c43b1dce25c7bc9c2ae" class="btn">Shop Now</a>
+            
+        </div><!--home-text-->
+    </section><!--home-->
+
+
+    <div class="main">
+        <div class="row">
+            <li><img src="imgs/main1.png" onclick="slider()"></li>
+        </div><!--row-->
+
+        <div class="row2">
+            <li><img src="imgs/main2.png" onclick="slider2()"></li>
+        </div><!--row2-->
+
+        <div class="row3">
+            <li><img src="imgs/main3.png" onclick="slider3()"></li>
+        </div><!--row3-->
+    </div><!--main-->
+
+  
+    <script src="scripts.js"></script>
+
+    
+</body>
+</html>
